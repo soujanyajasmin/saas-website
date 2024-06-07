@@ -4,6 +4,12 @@
     padding: 0;
 }
 
+:root {
+    --primary-color: #4891ff;
+    --light-color: #f4f4f6;
+    --dark-color: #111;
+}
+
 body {
     font-family: 'Poppins',sans-serif;
     font-size: 16px;
@@ -46,6 +52,10 @@ img {
     display: block;
     font-weight: 600;
     transition: 0.5s;
+}
+
+.navbar ul li a:hover {
+    color: var(--primary-color);
 }
 
 /* Utilities Classes */
