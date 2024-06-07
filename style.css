@@ -111,6 +111,11 @@ img {
     margin-bottom: 40px;
 }
 
+.testimonials .testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
 
 /* Utilities Classes */
 .container {
@@ -124,6 +129,15 @@ img {
     margin: 0 auto;
     padding: 0 15px;
 }
+
+/* Card */
+.card {
+    background: #fff;
+    color: #000;
+    border-radius: 10px;
+    padding: 20px;
+}
+
 
 /* Buttons */
 .btn {
